@@ -1,0 +1,16 @@
+{
+  "aliases": {
+    "hello": {
+      "script-ref": "hello.ts",
+      "description": "Hello world"
+    },
+    "myip": {
+      "script-ref": "myip.ts",
+      "description": "Display your IP address by https://httpbin.org/ip",
+      "deno": "1.17.1",
+      "permissions": [
+        "allow-net"
+      ]
+    }
+  }
+}

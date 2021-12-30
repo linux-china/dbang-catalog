@@ -8,4 +8,5 @@ DBang Catalog
 
 # References
 
-* Deno: https://deno.land/
+# dbang: https://dbang.dev
+* Deno: https://deno.land

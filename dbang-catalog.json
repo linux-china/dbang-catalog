@@ -12,6 +12,13 @@
         "--allow-net"
       ]
     },
+    "word-art": {
+      "script-ref": "ascii-art.js",
+      "description": "Ascii art generator",
+      "permissions": [
+        "--allow-net=dzjd3wnuerwiybhjc6w4aqtpnm46ble4dcfbb6jn7w3upjcmpraa.arweave.net"
+      ]
+    },
     "esbuild": {
       "script-ref": "https://deno.land/x/esbuild@v0.14.11/mod.js",
       "description": "esbuild cli",

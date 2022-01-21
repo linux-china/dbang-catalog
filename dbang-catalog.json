@@ -7,7 +7,6 @@
     "myip": {
       "script-ref": "myip.ts",
       "description": "Display your IP address by https://httpbin.org/ip",
-      "deno": "1.17.1",
       "permissions": [
         "--allow-net"
       ]
@@ -22,7 +21,6 @@
     "esbuild": {
       "script-ref": "https://deno.land/x/esbuild@v0.14.11/mod.js",
       "description": "esbuild cli",
-      "deno": "1.17.2",
       "permissions": [
         "--allow-all"
       ]

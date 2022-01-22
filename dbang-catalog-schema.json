@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DBang catalogs JSON Schema",
+  "description": "JSON Schema for dbang-catalog.json",
+  "type": "object",
+  "properties": {
+    "aliases": {
+      "description": "scripts",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "script-ref": {
+            "type": "string",
+            "description": "Script to run: local or HTTP Java/Jar file, GAV"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description for alias"
+          },
+          "import_map": {
+            "type": "string",
+            "description": "import_map for script"
+          },
+          "permissions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Permissions for script"
+          },
+          "platforms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Target platform for script, such as macos,linux,windows"
+          },
+          "deno": {
+            "type": "string",
+            "description": "Deno version, such as 1.18.0"
+          },
+          "compat": {
+            "type": "string",
+            "description": "Node.js compability mode"
+          }
+        },
+        "required": [
+          "script-ref"
+        ]
+      }
+    }
+  },
+  "required": [
+    "scripts"
+  ]
+}

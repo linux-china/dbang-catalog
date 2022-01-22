@@ -8,7 +8,7 @@
       "script-ref": "myip.ts",
       "description": "Display your IP address by https://httpbin.org/ip",
       "permissions": [
-        "--allow-net"
+        "--allow-net=httpbin.org:443"
       ]
     },
     "word-art": {

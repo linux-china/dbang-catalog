@@ -11,6 +11,13 @@
         "--allow-net=httpbin.org:443"
       ]
     },
+    "http-server": {
+      "script-ref": "simple-http-server.js",
+      "description": "Simple HTTP Server on http://localhost:8000",
+      "permissions": [
+        "--allow-net=localhost:8000"
+      ]
+    },
     "word-art": {
       "script-ref": "ascii-art.js",
       "description": "Ascii art generator",

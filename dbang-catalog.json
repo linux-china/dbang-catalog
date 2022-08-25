@@ -25,6 +25,16 @@
         "--allow-net=dzjd3wnuerwiybhjc6w4aqtpnm46ble4dcfbb6jn7w3upjcmpraa.arweave.net"
       ]
     },
+    "cowsay": {
+      "deno": "1.25.0",
+      "script-ref": "npm:cowsay@1.5.0/cowthink",
+      "description": "cowsay by npm",
+      "unstable": true,
+      "permissions": [
+        "--allow-read",
+        "--allow-env"
+      ]
+    },
     "esbuild": {
       "script-ref": "https://deno.land/x/esbuild@v0.14.11/mod.js",
       "description": "esbuild cli",

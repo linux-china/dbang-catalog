@@ -22,6 +22,10 @@
             "type": "string",
             "description": "import_map for script"
           },
+          "unstable": {
+            "type": "boolean",
+            "description": "unstable feature enabled or not"
+          },
           "permissions": {
             "type": "array",
             "items": {

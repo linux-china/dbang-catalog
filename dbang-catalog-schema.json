@@ -42,7 +42,7 @@
           },
           "deno": {
             "type": "string",
-            "description": "Deno version, such as 1.18.0"
+            "description": "Deno version, such as 1.25.0"
           },
           "compat": {
             "type": "string",

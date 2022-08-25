@@ -28,6 +28,9 @@
     "cowsay": {
       "deno": "1.25.0",
       "script-ref": "npm:cowsay@1.5.0/cowthink",
+      "args": [
+        "Hello World"
+      ],
       "description": "cowsay by npm",
       "unstable": true,
       "permissions": [

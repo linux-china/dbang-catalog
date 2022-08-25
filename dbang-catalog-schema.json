@@ -47,6 +47,13 @@
           "compat": {
             "type": "string",
             "description": "Node.js compability mode"
+          },
+          "args": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Default arguments for script"
           }
         },
         "required": [

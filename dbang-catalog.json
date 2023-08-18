@@ -39,7 +39,7 @@
       ]
     },
     "esbuild": {
-      "script-ref": "https://deno.land/x/esbuild@v0.14.11/mod.js",
+      "script-ref": "https://deno.land/x/esbuild@v0.19.2/mod.js",
       "description": "esbuild cli",
       "permissions": [
         "--allow-all"

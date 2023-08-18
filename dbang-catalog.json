@@ -26,7 +26,7 @@
       ]
     },
     "cowsay": {
-      "deno": "1.25.0",
+      "deno": "1.36.1",
       "script-ref": "npm:cowsay@1.5.0/cowthink",
       "args": [
         "Hello World"
